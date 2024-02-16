@@ -1,7 +1,6 @@
 package com.technolab.keneyaso.controllers.param;
 
-import com.technolab.keneyaso.entities.hospi.ChambreLit;
-import com.technolab.keneyaso.entities.param.Medecins;
+import com.technolab.keneyaso.entities.hospi.Chambres;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,13 +17,13 @@ public class ChambreLitController {
         return ResponseEntity.ok("La chambre avec l'id: "+ id);
     }
     @PostMapping()
-    public ResponseEntity save(@RequestBody ChambreLit c){
+    public ResponseEntity save(@RequestBody Chambres c){
         System.out.println(c.toString());
         return ResponseEntity.ok(c) ;
     }
 
     @PutMapping()
-    public ResponseEntity update(@RequestBody ChambreLit c){
+    public ResponseEntity update(@RequestBody Chambres c){
         System.out.println(c.toString());
         return ResponseEntity.ok(c) ;
     }
