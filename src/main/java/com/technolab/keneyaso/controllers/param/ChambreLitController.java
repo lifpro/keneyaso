@@ -13,6 +13,6 @@ public class ChambreLitController {
     }
     @GetMapping("{id}")
     public ResponseEntity findOne(@PathVariable long id){
-        return ResponseEntity.ok("Liste des chambre avec l'id: "+ id);
+        return ResponseEntity.ok("La chambre avec l'id: "+ id);
     }
 }
