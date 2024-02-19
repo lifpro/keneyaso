@@ -1,0 +1,400 @@
+2024-02-19T18:42:21.576Z  INFO 31575 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 31575 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T18:42:21.578Z  INFO 31575 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T18:42:21.871Z  INFO 31575 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T18:42:21.900Z  INFO 31575 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-02-19T18:42:22.118Z  INFO 31575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T18:42:22.136Z  INFO 31575 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T18:42:22.136Z  INFO 31575 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T18:42:22.170Z  INFO 31575 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T18:42:22.170Z  INFO 31575 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 569 ms
+2024-02-19T18:42:22.242Z  INFO 31575 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T18:42:22.268Z  INFO 31575 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T18:42:22.281Z  INFO 31575 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T18:42:22.383Z  INFO 31575 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T18:42:22.396Z  INFO 31575 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T18:42:22.483Z  INFO 31575 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6206b4a7
+2024-02-19T18:42:22.484Z  INFO 31575 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T18:42:22.508Z  WARN 31575 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T18:42:22.873Z  INFO 31575 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T18:42:22.905Z  INFO 31575 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T18:42:23.050Z  WARN 31575 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T18:42:23.181Z  INFO 31575 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T18:42:23.186Z  INFO 31575 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.849 seconds (process running for 2.054)
+2024-02-19T18:42:29.774Z  INFO 31575 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T18:42:29.776Z  INFO 31575 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T18:42:29.784Z  INFO 31575 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-19T18:42:32.245Z  INFO 31611 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 31611 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T18:42:32.246Z  INFO 31611 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T18:42:32.585Z  INFO 31611 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T18:42:32.614Z  INFO 31611 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-02-19T18:42:32.836Z  INFO 31611 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T18:42:32.842Z  INFO 31611 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T18:42:32.842Z  INFO 31611 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T18:42:32.870Z  INFO 31611 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T18:42:32.870Z  INFO 31611 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 590 ms
+2024-02-19T18:42:32.941Z  INFO 31611 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T18:42:32.960Z  INFO 31611 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T18:42:32.976Z  INFO 31611 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T18:42:33.081Z  INFO 31611 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T18:42:33.093Z  INFO 31611 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T18:42:33.164Z  INFO 31611 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40d96578
+2024-02-19T18:42:33.165Z  INFO 31611 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T18:42:33.188Z  WARN 31611 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T18:42:33.570Z  INFO 31611 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T18:42:33.591Z  INFO 31611 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T18:42:33.735Z  WARN 31611 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T18:42:33.874Z  INFO 31611 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T18:42:33.879Z  INFO 31611 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.854 seconds (process running for 2.045)
+2024-02-19T18:43:00.853Z  INFO 31611 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T18:43:00.853Z  INFO 31611 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T18:43:00.854Z  INFO 31611 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19T18:43:00.917Z DEBUG 31611 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        medecins
+        (adresse, created_by, created_date, email, etat, last_modified_by, last_modified_date, matricule, nom, prenom, telephone) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2024-02-19T18:43:00.950Z  INFO 31611 --- [http-nio-8080-exec-1] c.t.k.services.param.MedecinService      : sdsd
+2024-02-19T19:01:06.743Z  WARN 31611 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m33s471ms).
+2024-02-19T19:44:30.128Z  INFO 31611 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:44:30.146Z  INFO 31611 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T19:44:30.150Z  INFO 31611 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-19T19:44:34.951Z  INFO 37922 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 37922 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T19:44:34.953Z  INFO 37922 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T19:44:35.345Z  INFO 37922 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T19:44:35.376Z  INFO 37922 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-02-19T19:44:35.607Z  INFO 37922 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T19:44:35.613Z  INFO 37922 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T19:44:35.614Z  INFO 37922 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T19:44:35.639Z  INFO 37922 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T19:44:35.639Z  INFO 37922 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 658 ms
+2024-02-19T19:44:35.717Z  INFO 37922 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T19:44:35.744Z  INFO 37922 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T19:44:35.757Z  INFO 37922 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T19:44:35.857Z  INFO 37922 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T19:44:35.872Z  INFO 37922 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T19:44:35.950Z  INFO 37922 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9b3be1c
+2024-02-19T19:44:35.950Z  INFO 37922 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T19:44:35.985Z  WARN 37922 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T19:44:36.336Z  INFO 37922 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T19:44:36.359Z  INFO 37922 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:44:36.501Z  WARN 37922 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T19:44:36.634Z  INFO 37922 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T19:44:36.640Z  INFO 37922 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.923 seconds (process running for 2.168)
+2024-02-19T19:44:55.678Z  INFO 37922 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T19:44:55.678Z  INFO 37922 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T19:44:55.679Z  INFO 37922 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19T19:44:55.741Z DEBUG 37922 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.adresse,
+        m1_0.created_by,
+        m1_0.created_date,
+        m1_0.email,
+        m1_0.etat,
+        m1_0.last_modified_by,
+        m1_0.last_modified_date,
+        m1_0.matricule,
+        m1_0.nom,
+        m1_0.prenom,
+        m1_0.telephone 
+    from
+        medecins m1_0 
+    where
+        (
+            m1_0.etat <> 0
+        )
+2024-02-19T19:46:28.639Z  INFO 37922 --- [http-nio-8080-exec-4] c.t.k.services.param.MedecinService      : FROM Medecins as o where o.etat=1 and o.nom like '%di%' 
+2024-02-19T19:46:28.797Z DEBUG 37922 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.adresse,
+        m1_0.created_by,
+        m1_0.created_date,
+        m1_0.email,
+        m1_0.etat,
+        m1_0.last_modified_by,
+        m1_0.last_modified_date,
+        m1_0.matricule,
+        m1_0.nom,
+        m1_0.prenom,
+        m1_0.telephone 
+    from
+        medecins m1_0 
+    where
+        (
+            m1_0.etat <> 0
+        ) 
+        and m1_0.etat=1 
+        and m1_0.nom like '%di%'
+2024-02-19T19:46:43.489Z  INFO 37922 --- [http-nio-8080-exec-6] c.t.k.services.param.MedecinService      : FROM Medecins as o where o.etat=1 and o.nom like '%to%' 
+2024-02-19T19:46:43.492Z DEBUG 37922 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.adresse,
+        m1_0.created_by,
+        m1_0.created_date,
+        m1_0.email,
+        m1_0.etat,
+        m1_0.last_modified_by,
+        m1_0.last_modified_date,
+        m1_0.matricule,
+        m1_0.nom,
+        m1_0.prenom,
+        m1_0.telephone 
+    from
+        medecins m1_0 
+    where
+        (
+            m1_0.etat <> 0
+        ) 
+        and m1_0.etat=1 
+        and m1_0.nom like '%to%'
+2024-02-19T19:47:49.052Z  INFO 37922 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:47:49.056Z  INFO 37922 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T19:47:49.064Z  INFO 37922 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-19T19:47:59.159Z  INFO 38359 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 38359 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T19:47:59.160Z  INFO 38359 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T19:47:59.477Z  INFO 38359 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T19:47:59.506Z  INFO 38359 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-02-19T19:47:59.706Z  INFO 38359 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T19:47:59.712Z  INFO 38359 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T19:47:59.713Z  INFO 38359 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T19:47:59.744Z  INFO 38359 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T19:47:59.745Z  INFO 38359 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 556 ms
+2024-02-19T19:47:59.820Z  INFO 38359 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T19:47:59.841Z  INFO 38359 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T19:47:59.853Z  INFO 38359 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T19:47:59.936Z  INFO 38359 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T19:47:59.947Z  INFO 38359 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T19:48:00.028Z  INFO 38359 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@414b2df5
+2024-02-19T19:48:00.028Z  INFO 38359 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T19:48:00.106Z  WARN 38359 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T19:48:00.482Z  INFO 38359 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T19:48:00.503Z  INFO 38359 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:48:00.645Z  WARN 38359 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T19:48:00.782Z  INFO 38359 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T19:48:00.790Z  INFO 38359 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.878 seconds (process running for 2.092)
+2024-02-19T19:48:06.963Z  INFO 38359 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T19:48:06.964Z  INFO 38359 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T19:48:06.964Z  INFO 38359 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-19T19:48:07.014Z  INFO 38359 --- [http-nio-8080-exec-2] c.t.k.services.param.MedecinService      : FROM Medecins as o where o.etat=1 and o.nom like '%to%' 
+2024-02-19T19:48:07.148Z DEBUG 38359 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        m1_0.id,
+        m1_0.adresse,
+        m1_0.created_by,
+        m1_0.created_date,
+        m1_0.email,
+        m1_0.etat,
+        m1_0.last_modified_by,
+        m1_0.last_modified_date,
+        m1_0.matricule,
+        m1_0.nom,
+        m1_0.prenom,
+        m1_0.telephone 
+    from
+        medecins m1_0 
+    where
+        (
+            m1_0.etat <> 0
+        ) 
+        and m1_0.etat=1 
+        and m1_0.nom like '%to%'
+2024-02-19T19:49:38.931Z  INFO 38359 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:49:38.934Z  INFO 38359 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T19:49:38.939Z  INFO 38359 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-19T19:49:41.106Z  INFO 38572 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 38572 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T19:49:41.108Z  INFO 38572 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T19:49:41.426Z  INFO 38572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T19:49:41.458Z  INFO 38572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-02-19T19:49:41.665Z  INFO 38572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T19:49:41.670Z  INFO 38572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T19:49:41.670Z  INFO 38572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T19:49:41.702Z  INFO 38572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T19:49:41.702Z  INFO 38572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 564 ms
+2024-02-19T19:49:41.779Z  INFO 38572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T19:49:41.800Z  INFO 38572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T19:49:41.813Z  INFO 38572 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T19:49:41.895Z  INFO 38572 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T19:49:41.905Z  INFO 38572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T19:49:41.970Z  INFO 38572 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f0f70c7
+2024-02-19T19:49:41.971Z  INFO 38572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T19:49:41.994Z  WARN 38572 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T19:49:42.351Z  INFO 38572 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T19:49:42.377Z  INFO 38572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:49:42.518Z  WARN 38572 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T19:49:42.647Z  INFO 38572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T19:49:42.652Z  INFO 38572 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.77 seconds (process running for 1.967)
+2024-02-19T19:49:48.450Z  INFO 38572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T19:49:48.451Z  INFO 38572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T19:49:48.451Z  INFO 38572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-02-19T19:49:48.501Z  INFO 38572 --- [http-nio-8080-exec-1] c.t.k.services.param.MedecinService      : FROM Medecins as o where o.etat=1 and o.nom like '%to%' 
+2024-02-19T19:50:19.161Z  INFO 38572 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:50:19.163Z  INFO 38572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T19:50:19.169Z  INFO 38572 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-19T19:50:23.544Z  INFO 38676 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 38676 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T19:50:23.545Z  INFO 38676 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T19:50:23.849Z  INFO 38676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T19:50:23.881Z  INFO 38676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-02-19T19:50:24.091Z  INFO 38676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T19:50:24.098Z  INFO 38676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T19:50:24.098Z  INFO 38676 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T19:50:24.129Z  INFO 38676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T19:50:24.129Z  INFO 38676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 556 ms
+2024-02-19T19:50:24.199Z  INFO 38676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T19:50:24.220Z  INFO 38676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T19:50:24.233Z  INFO 38676 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T19:50:24.325Z  INFO 38676 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T19:50:24.337Z  INFO 38676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T19:50:24.403Z  INFO 38676 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23ad2d17
+2024-02-19T19:50:24.404Z  INFO 38676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T19:50:24.427Z  WARN 38676 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T19:50:24.774Z  INFO 38676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T19:50:24.794Z  INFO 38676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:50:24.935Z  WARN 38676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T19:50:25.056Z  INFO 38676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T19:50:25.060Z  INFO 38676 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.743 seconds (process running for 1.931)
+2024-02-19T19:50:30.409Z  INFO 38676 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-19T19:50:30.409Z  INFO 38676 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-19T19:50:30.410Z  INFO 38676 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-19T19:50:30.460Z  INFO 38676 --- [http-nio-8080-exec-2] c.t.k.services.param.MedecinService      : FROM Medecins as o where o.etat=1 ando.nom like '%to%' 
+2024-02-19T19:50:30.531Z ERROR 38676 --- [http-nio-8080-exec-2] c.t.k.services.param.MedecinService      : org.hibernate.query.SyntaxException: At 1:34 and token 'ando', mismatched input 'ando', expecting one of the following tokens: <EOF>, '+', '-', '*', '/', '%', '||', AND, BY, DAY, EPOCH, GROUP, HOUR, MINUTE, MONTH, NANOSECOND, OR, ORDER, QUARTER, SECOND, SELECT, WEEK, YEAR [FROM Medecins as o where o.etat=1 ando.nom like '%to%' ]
+
+java.lang.IllegalArgumentException: org.hibernate.query.SyntaxException: At 1:34 and token 'ando', mismatched input 'ando', expecting one of the following tokens: <EOF>, '+', '-', '*', '/', '%', '||', AND, BY, DAY, EPOCH, GROUP, HOUR, MINUTE, MONTH, NANOSECOND, OR, ORDER, QUARTER, SECOND, SELECT, WEEK, YEAR [FROM Medecins as o where o.etat=1 ando.nom like '%to%' ]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:143) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:167) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:173) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:827) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:732) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:133) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364) ~[spring-orm-6.1.3.jar:6.1.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy119.createQuery(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:319) ~[spring-orm-6.1.3.jar:6.1.3]
+	at jdk.proxy2/jdk.proxy2.$Proxy119.createQuery(Unknown Source) ~[na:na]
+	at com.technolab.keneyaso.services.param.MedecinService.search(MedecinService.java:125) ~[classes/:na]
+	at com.technolab.keneyaso.controllers.param.MedecinsController.search(MedecinsController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:261) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:189) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:917) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:829) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.18.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.3.jar:6.1.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.18.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.3.jar:6.1.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.18.jar:10.1.18]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+Caused by: org.hibernate.query.SyntaxException: At 1:34 and token 'ando', mismatched input 'ando', expecting one of the following tokens: <EOF>, '+', '-', '*', '/', '%', '||', AND, BY, DAY, EPOCH, GROUP, HOUR, MINUTE, MONTH, NANOSECOND, OR, ORDER, QUARTER, SECOND, SELECT, WEEK, YEAR [FROM Medecins as o where o.etat=1 ando.nom like '%to%' ]
+	at org.hibernate.query.hql.internal.StandardHqlTranslator$1.syntaxError(StandardHqlTranslator.java:108) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.antlr.v4.runtime.ProxyErrorListener.syntaxError(ProxyErrorListener.java:41) ~[antlr4-runtime-4.13.0.jar:4.13.0]
+	at org.antlr.v4.runtime.Parser.notifyErrorListeners(Parser.java:544) ~[antlr4-runtime-4.13.0.jar:4.13.0]
+	at org.antlr.v4.runtime.DefaultErrorStrategy.reportInputMismatch(DefaultErrorStrategy.java:327) ~[antlr4-runtime-4.13.0.jar:4.13.0]
+	at org.antlr.v4.runtime.DefaultErrorStrategy.reportError(DefaultErrorStrategy.java:139) ~[antlr4-runtime-4.13.0.jar:4.13.0]
+	at org.hibernate.grammars.hql.HqlParser.statement(HqlParser.java:367) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.query.hql.internal.StandardHqlTranslator.parseHql(StandardHqlTranslator.java:143) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.query.hql.internal.StandardHqlTranslator.translate(StandardHqlTranslator.java:67) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.query.internal.QueryInterpretationCacheStandardImpl.createHqlInterpretation(QueryInterpretationCacheStandardImpl.java:165) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.query.internal.QueryInterpretationCacheStandardImpl.resolveHqlInterpretation(QueryInterpretationCacheStandardImpl.java:147) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.interpretHql(AbstractSharedSessionContract.java:769) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:819) ~[hibernate-core-6.4.1.Final.jar:6.4.1.Final]
+	... 66 common frames omitted
+
+2024-02-19T19:50:55.519Z  INFO 38676 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T19:50:55.522Z  INFO 38676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T19:50:55.527Z  INFO 38676 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-19T20:00:10.019Z  INFO 40031 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 40031 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T20:00:10.023Z  INFO 40031 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T20:00:10.354Z  INFO 40031 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T20:00:10.382Z  INFO 40031 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-02-19T20:00:10.602Z  INFO 40031 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T20:00:10.608Z  INFO 40031 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T20:00:10.609Z  INFO 40031 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T20:00:10.638Z  INFO 40031 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T20:00:10.639Z  INFO 40031 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 588 ms
+2024-02-19T20:00:10.716Z  INFO 40031 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T20:00:10.737Z  INFO 40031 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T20:00:10.750Z  INFO 40031 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T20:00:10.841Z  INFO 40031 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T20:00:10.853Z  INFO 40031 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T20:00:10.927Z  INFO 40031 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7db5b890
+2024-02-19T20:00:10.928Z  INFO 40031 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T20:00:10.951Z  WARN 40031 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T20:00:11.358Z  INFO 40031 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T20:00:11.418Z  INFO 40031 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T20:00:11.562Z  WARN 40031 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T20:00:11.709Z  INFO 40031 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T20:00:11.715Z  INFO 40031 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.922 seconds (process running for 2.126)
+2024-02-19T20:02:27.332Z  INFO 40031 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T20:02:27.334Z  INFO 40031 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-19T20:02:27.337Z  INFO 40031 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-19T20:02:30.111Z  INFO 40343 --- [main] c.t.keneyaso.KeneyasoApplication         : Starting KeneyasoApplication using Java 17.0.10 with PID 40343 (/Users/lif/projets/technolab/java/keneyaso/target/classes started by lif in /Users/lif/projets/technolab/java/keneyaso)
+2024-02-19T20:02:30.113Z  INFO 40343 --- [main] c.t.keneyaso.KeneyasoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T20:02:30.433Z  INFO 40343 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T20:02:30.460Z  INFO 40343 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-02-19T20:02:30.675Z  INFO 40343 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-19T20:02:30.680Z  INFO 40343 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T20:02:30.680Z  INFO 40343 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-19T20:02:30.710Z  INFO 40343 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T20:02:30.711Z  INFO 40343 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 571 ms
+2024-02-19T20:02:30.784Z  INFO 40343 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T20:02:30.805Z  INFO 40343 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-02-19T20:02:30.818Z  INFO 40343 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-19T20:02:30.902Z  INFO 40343 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T20:02:30.913Z  INFO 40343 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-19T20:02:30.981Z  INFO 40343 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e9beef2
+2024-02-19T20:02:30.982Z  INFO 40343 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-19T20:02:31.007Z  WARN 40343 --- [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-02-19T20:02:31.396Z  INFO 40343 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-19T20:02:31.420Z  INFO 40343 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T20:02:31.567Z  WARN 40343 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T20:02:31.712Z  INFO 40343 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-19T20:02:31.718Z  INFO 40343 --- [main] c.t.keneyaso.KeneyasoApplication         : Started KeneyasoApplication in 1.817 seconds (process running for 2.016)
