@@ -48,7 +48,8 @@
 			<artifactId>spring-boot</artifactId>
 			<version>3.2.2</version>
 		</dependency>
-	</dependencies>
+
+    </dependencies>
 
 	<build>
 		<plugins>
